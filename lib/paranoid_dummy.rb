@@ -1,5 +1,7 @@
-require "paranoid_dummy/version"
+require 'activerecord'
 
-module ParanoidDummy
-  # Your code goes here...
-end
+require 'paranoid_dummy/version'
+require 'paranoid_dummy/dummy'
+require 'paranoid_dummy/paranoid_dummy'
+
+
