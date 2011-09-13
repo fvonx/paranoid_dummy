@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Matthias Stiller"]
   s.email       = ["matthias.stiller@metascape.de"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Replace nil objects with predefined dummy objects.}
+  s.description = %q{ParanoidDummy replaces belongs_to associations that return nil objects with predefined dummy objects.}
 
   s.rubyforge_project = "paranoid_dummy"
 
