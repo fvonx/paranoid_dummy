@@ -4,4 +4,4 @@ require 'paranoid_dummy/version'
 require 'paranoid_dummy/dummy'
 require 'paranoid_dummy/paranoid_dummy'
 
-ActiveRecord::Base.class_eval { include ParanoidDummy }
+ActiveRecord::Base.send :include, ParanoidDummy
