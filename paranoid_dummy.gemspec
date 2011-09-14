@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["matthias.stiller@metascape.de"]
   s.homepage    = ""
   s.summary     = %q{Replace nil objects with predefined dummy objects.}
-  s.description = %q{ParanoidDummy replaces belongs_to associations that return nil objects with predefined dummy objects.}
+  s.description = %q{paranoid_dummy replaces belongs_to associations that return nil objects with predefined dummy objects.}
 
   s.rubyforge_project = "paranoid_dummy"
 
