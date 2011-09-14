@@ -3,3 +3,4 @@
 Gemfile.lock
 pkg/*
 *.swp
+spec/paranoid_dummy.sqlite3
